@@ -1,11 +1,11 @@
 #include <stdio.h>
-
-int main(void) 
+#include<conio.h>
+int main() 
 {
-	int num;
+	int n;
 	printf("enter the number:");
-	scanf("%d",&num);
-	int result=num+1;
+	scanf("%d",&n);
+	int result=n+1;
 	printf("\n%d",result);
 	return 0;
 }
